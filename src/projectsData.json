@@ -1,0 +1,30 @@
+[
+  {
+    "title": "The Amiibo Gallery",
+    "image": "url",
+    "description": "👾 Find your next amiibo here!",
+    "github": "https://github.com/CaliHam/the-amiibo-gallery",
+    "deployed": "https://the-amiibo-gallery.vercel.app/"
+  },
+  {
+    "title": "Grateful Together",
+    "image": "url",
+    "description": "🤲 Share your wins (big or small) in this easy to navigate application!",
+    "github": "https://github.com/CaliHam/gratefultogether",
+    "deployed": "https://gratefultogether.vercel.app/"
+  },
+  {
+    "title": "My Anime Ship",
+    "image": "url",
+    "description": "💫 Discover your compatibility with your favorite anime character here!",
+    "github": "https://github.com/CaliHam/my-anime-ship",
+    "deployed": "https://my-anime-ship.vercel.app/"
+  },
+  {
+    "title": "Bare Minimum",
+    "image": "url",
+    "description": "🐻 Feeling unproductive? Try completing a small task from Bare Minimum!",
+    "github": "https://github.com/CaliHam/bare-minimum",
+    "deployed": "https://bare-minimum.vercel.app/"
+  }
+]
