@@ -10,8 +10,8 @@ const AboutMe = () => {
           </h1>
         <div className='bg-violet-300 rounded-full px-16 py-10 my-5'><p className="text-xl text-blue-900 leading-relaxed indent-10">As a software developer and Environmental Studies graduate from UNC Greensboro, I've been driven by a love for problem-solving and a passion for creating change that benefits both people and our planet. My journey into technology was fueled by a desire to align my profession with my passion.</p></div>
         </div>
-          <aside className='w-full'>
-            <img src={profilePhoto} className='rounded-full object-cover' alt='Callihan Herrmann profile photo'/>
+          <aside className='w-full min-w-64'>
+            <img src={profilePhoto} className='rounded-full object-cover shrink-0' alt='Callihan Herrmann profile photo'/>
           </aside>
       </section>
         <div className='p-20 pt-0 w-full flex flex-col'>

@@ -5,7 +5,7 @@ import development from './assets/development.png'
 
 const Welcome = () => {
   return (
-    <div className="bg-amber-50 text-violet-950 flex h-screen w-screen font-body">
+    <div className="bg-amber-50 text-violet-950 flex h-auto w-screen font-body flex-col lg:flex-row">
       <div className="order-1 p-28 pr-5 container mx-auto">
         <div className='flex justify-around w-fit items-center'>
           <img className="w-12" src={sun} alt='light mode'/>
@@ -19,11 +19,11 @@ const Welcome = () => {
           <a href='#about'><button className='bg-pink-300 rounded-full px-5 py-2'>About Me</button></a>
         </div>
       </div>
-      <aside className='flex flex-col items-center justify-around order-2 container mx-auto'>
-        <img className="w-60" src={approved} alt='computer approved'/>
-        <img className="w-60" src={development} alt='development'/>
-        <img className="w-60" src={api} alt='api'/>
-      </aside>
+      <div className='flex lg:flex-col items-center justify-around order-2 container mx-auto'>
+        <img className="w-60 hidden lg:block" src={approved} alt='computer approved'/>
+        <img className="w-60 hidden md:block" src={development} alt='development'/>
+        <img className="w-60 hidden md:block" src={api} alt='api'/>
+      </div>
     </div>
   )
 }
