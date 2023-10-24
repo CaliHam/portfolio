@@ -1,10 +1,10 @@
 [
   {
-    "title": "The Amiibo Gallery",
-    "image": "https://u.cubeupload.com/User713646/amiibogall.png",
-    "description": "👾 Find your next amiibo here!",
-    "github": "https://github.com/CaliHam/the-amiibo-gallery",
-    "deployed": "https://the-amiibo-gallery.vercel.app/"
+    "title": "Celestial Cycle",
+    "image": "https://u.cubeupload.com/User713646/5e0Screenshot20231024at.png",
+    "description": "🌙 Combine astrological insights with menstrual cycle tracking. Created during WWCode Hackathon for Social Impact 2023.",
+    "github": "https://github.com/lauraguerra1/celestial-cycle",
+    "deployed": "https://celestial-cycle.vercel.app"
   },
   {
     "title": "Grateful Together",
