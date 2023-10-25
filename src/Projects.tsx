@@ -22,13 +22,13 @@ const Projects = () => {
   })
 
   return (
-    <div className="bg-amber-50 flex text-violet-950 py-20">
-      <aside className='flex flex-col p-20 items-center w-1/3'>
+    <div className="bg-amber-50 flex flex-wrap lg:flex-nowrap text-violet-950 py-20">
+      <aside className='flex flex-col p-20 items-center lg:w-1/3'>
         <img src={searchEngine} className='w-52' alt='search logo' />
         <h1 className='font-title text-6xl my-5 font-bold'>Here we go!</h1>
         <p className='text-xl pt-10'>I've embarked on an exciting journey as a developer, and I'm thrilled to showcase my most recent applications. These projects represent my dedication to learning and my passion for creating innovative solutions.</p>
       </aside>
-      <div className='grid grid-flow-col grid-rows-2 gap-16 p-20'>
+      <div className='grid grid-flow-col grid-rows-4 md:grid-rows-2 gap-16 p-20'>
         {projectBoxes}
       </div>
     </div>
