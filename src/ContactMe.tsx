@@ -16,13 +16,13 @@ const ContactMe = () => {
         <h1 className="text-6xl font-title text-pink-500 font-bold">Let's connect!</h1>
         <div className="font-body flex flex-col h-72 justify-between pt-20">
           <div className="flex items-center">
-            <a href={resumePDF} target="_blank"><img src={resume} alt="resume icon"/></a><p className='pl-3'><b>RESUME</b></p>
+            <a href={resumePDF} target="_blank"><img src={resume} alt="resume icon"/></a><p className='pl-3 text-violet-950'>RESUME</p>
           </div>
           <div className="flex items-center">
-            <img src={email} className='object-none' alt="email icon"/><div className='pl-3'><p><b>EMAIL</b></p><p>callihanh.dev@gmail.com</p></div>
+            <img src={email} className='object-none' alt="email icon"/><div className='pl-3 text-violet-950'><p>EMAIL</p><p>callihanh.dev@gmail.com</p></div>
           </div>
           <div className="flex items-center">
-            <img src={phone} className='object-none' alt="phone icon"/><div className='pl-3'><p><b>PHONE</b></p><p>336-327-3502</p></div>
+            <img src={phone} className='object-none' alt="phone icon"/><div className='pl-3 text-violet-950'><p>PHONE</p><p>336-327-3502</p></div>
           </div>
         </div>
         <footer>
