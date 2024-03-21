@@ -20,9 +20,9 @@ const Welcome = () => {
         </div>
       </div>
       <div className='flex lg:flex-col items-center justify-around order-2 container mx-auto opacity-0 animate-fade-in'>
-        <img className="w-60 hidden lg:block" src={approved} alt='computer approved'/>
-        <img className="w-60 hidden md:block" src={development} alt='development'/>
-        <img className="w-60 hidden md:block" src={api} alt='api'/>
+        <img className="w-60 hidden lg:block hover:translate-x-10 transition" src={approved} alt='computer approved'/>
+        <img className="w-60 hidden md:block hover:-translate-x-10 transition" src={development} alt='development'/>
+        <img className="w-60 hidden md:block hover:translate-x-10 transition" src={api} alt='api'/>
       </div>
     </main>
   )

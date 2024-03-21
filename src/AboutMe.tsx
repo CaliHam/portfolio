@@ -13,7 +13,7 @@ const AboutMe = () => {
           </div>
         </div>
           <aside className='min-w-64 shrink-0 py-10 lg:pb-5'>
-            <img src={profilePhoto} className='rounded-full object-cover shrink-0' alt='Callihan Herrmann profile photo'/>
+            <img src={profilePhoto} className='rounded-full object-cover shrink-0 hover:animate-rotate360 transition' alt='Callihan Herrmann profile photo'/>
           </aside>
       </section>
         <div className='p-10 pt-0 md:p-20 md:pt-0 w-full flex flex-col flex-wrap'>

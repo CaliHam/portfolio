@@ -10,7 +10,7 @@ const ContactMe = () => {
   return (
     <section id='connect' className="bg-amber-50 flex flex-wrap lg:flex-nowrap items-center">
       <aside className="bg-pink-500 order-1 p-20 w-full object-center shrink-0 lg:w-1/3 lg:h-screen">
-        <img src={githubPhoto} className='rounded w-80 h-auto object-center shrink-0' alt="Calli Profile Photo"/>
+        <img src={githubPhoto} className='rounded w-80 h-auto object-center shrink-0 hover:animate-rotate360 transition-transform' alt="Calli Profile Photo"/>
       </aside>
       <section className="order-2 p-10 pl-20 lg:p-20 lg:pl-40">
         <h1 className="text-6xl font-title text-pink-500 font-bold">Let's connect!</h1>
