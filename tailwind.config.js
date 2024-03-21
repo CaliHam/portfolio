@@ -9,7 +9,10 @@ export default {
     },
     extend: {
       boxShadow: {
-        'img': '-13px -13px 15px 1px rgba(0,0,0,0.24);'
+        'img': '0 2px 8px rgba(0,0,0,0.15);'
+      },
+      scale: {
+        '115': '1.15', 
       }
     },
   },

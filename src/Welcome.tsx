@@ -12,7 +12,7 @@ const Welcome = () => {
           <h1 className='text-3xl pl-2'>Callihan Herrmann</h1>
         </div>
         <h2 className="text-6xl my-20 font-title leading-normal">
-          <span className='text-pink-400 font-bold'>Frontend Developer</span> blending creativity, problem-solving, & social equity
+          <span className="text-pink-400 font-bold">Frontend Developer</span> blending creativity, problem-solving, & social equity
         </h2> 
         <div className='flex items-center justify-around text-amber-50 pt-10'>
           <a href='#connect'><button className='bg-violet-300 rounded-full px-5 py-2 hover:scale-125 transition'>Let's Connect</button></a>

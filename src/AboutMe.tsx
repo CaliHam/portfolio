@@ -2,7 +2,7 @@ import profilePhoto from './assets/profile-photo.png'
 
 const AboutMe = () => {
   return (
-    <div id='about' className="bg-gradient-to-br from-pink-500 to-pink-400 font-body text-amber-50 h-auto w-auto flex flex-col flex-wrap">
+    <article id='about' className="bg-gradient-to-br from-pink-500 to-pink-400 font-body text-amber-50 h-auto w-auto flex flex-col flex-wrap">
       <section className='p-10 pb-0 md:p-20 md:pb-0 flex flex-col-reverse items-center lg:flex-row'>
         <div className='lg:pr-20 flex flex-col '>
           <h1 className="text-6xl font-title lg:pl-20 pb-10">
@@ -21,7 +21,7 @@ const AboutMe = () => {
             <p className="text-xl text-violet-950 leading-relaxed indent-10">Transitioning from environmental studies to software development wasn't just about changing my career path; it was about empowering myself to make a meaningful impact. I recently graduated from the Turing School of Software and Design, where I honed my skills and collaborated on projects that addressed real-world challenges. I'm excited to leverage my problem-solving abilities and environmental awareness to contribute to innovative solutions in the tech industry.</p>
           </div>
         </div>
-    </div>
+    </article>
   )
 }
 

@@ -6,7 +6,7 @@ const Projects = () => {
   const projectBoxes = projectData.map((proj, i) => {
     return (
       <div className='flex flex-col' key={i}>
-        <img src={proj.image} className='h-72 object-cover rounded object-top shadow-img' alt={proj.title} />
+        <img src={proj.image} className='h-72 object-cover rounded object-top shadow-img hover:-translate-y-2 transition-all' alt={proj.title} />
         <div className='flex font-title justify-between'>
           <h2 className='text-2xl'>{proj.title}</h2>
           <div className='flex'>

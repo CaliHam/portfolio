@@ -16,7 +16,7 @@ const ContactMe = () => {
         <h1 className="text-6xl font-title text-pink-500 font-bold">Let's connect!</h1>
         <div className="font-body flex flex-col h-72 justify-between pt-20">
           <div className="flex items-center">
-            <a href={resumePDF} target="_blank"><img src={resume} alt="resume icon"/></a><p className='pl-3 text-violet-950'>RESUME</p>
+            <a href={resumePDF} target="_blank"><img src={resume} className="hover:-translate-y-1 transition" alt="resume icon"/></a><p className='pl-3 text-violet-950'>RESUME</p>
           </div>
           <div className="flex items-center">
             <img src={email} className='object-none' alt="email icon"/><div className='pl-3 text-violet-950'><p>EMAIL</p><p>callihanh.dev@gmail.com</p></div>
@@ -27,8 +27,8 @@ const ContactMe = () => {
         </div>
         <footer>
           <div className="flex pt-32 lg:pt-60 w-full justify-around">
-            <a href='https://www.linkedin.com/in/callihan-herrmann/' target="_blank"><img src={linkedin} alt="linkedin logo" /></a>
-            <a href='https://github.com/CaliHam/' target="_blank"><img src={github} alt="github logo" /></a>
+            <a href='https://www.linkedin.com/in/callihan-herrmann/' target="_blank"><img src={linkedin} className="hover:-translate-y-1 transition" alt="linkedin logo" /></a>
+            <a href='https://github.com/CaliHam/' target="_blank"><img src={github} className="hover:-translate-y-1 transition" alt="github logo" /></a>
           </div>
         </footer>
       </section>
