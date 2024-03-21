@@ -8,7 +8,7 @@ import githubPhoto from './assets/github-photo.png'
 
 const ContactMe = () => {
   return (
-    <div id='connect' className="bg-amber-50 flex flex-wrap lg:flex-nowrap items-center">
+    <section id='connect' className="bg-amber-50 flex flex-wrap lg:flex-nowrap items-center">
       <aside className="bg-pink-500 order-1 p-20 w-full object-center shrink-0 lg:w-1/3 lg:h-screen">
         <img src={githubPhoto} className='rounded w-80 h-auto object-center shrink-0' alt="Calli Profile Photo"/>
       </aside>
@@ -32,7 +32,7 @@ const ContactMe = () => {
           </div>
         </footer>
       </section>
-    </div>
+    </section>
   )
 }
 

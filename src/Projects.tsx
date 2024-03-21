@@ -22,7 +22,7 @@ const Projects = () => {
   })
 
   return (
-    <div className="bg-amber-50 flex flex-wrap lg:flex-nowrap text-violet-950 py-20">
+    <article className="bg-amber-50 flex flex-wrap lg:flex-nowrap text-violet-950 py-20">
       <aside className='flex flex-col p-20 items-center lg:w-1/3'>
         <img src={searchEngine} className='w-52' alt='search logo' />
         <h1 className='font-title text-6xl my-5 font-bold'>Here we go!</h1>
@@ -31,7 +31,7 @@ const Projects = () => {
       <div className='grid grid-flow-col grid-rows-4 md:grid-rows-2 gap-16 p-20'>
         {projectBoxes}
       </div>
-    </div>
+    </article>
   )
 }
 
