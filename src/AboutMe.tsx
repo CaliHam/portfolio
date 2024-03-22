@@ -9,7 +9,7 @@ const AboutMe = () => {
             Heyo, <span className='font-bold text-pink-400'>Calli</span> here!
           </h1>
           <div className='p-5 lg:px-10 mb-5'>
-            <p className="text-xl leading-relaxed indent-10">As a software developer and Environmental Studies graduate from UNC Greensboro, I've been driven by a love for problem-solving and a passion for creating change that benefits both people and our planet. My journey into technology was fueled by a desire to align my profession with my passion.</p>
+            <p className="text-xl leading-relaxed indent-10">As a recent graduate of the Turing School of Software and Design, I am a software developer with a keen passion for front-end development and a strong foundation in customer service. My academic journey at UNC Greensboro, where I earned a degree in Environmental Studies and a minor in American Sign Language, has imbued me with a deep-rooted passion for creating change that benefits both people and our planet. This unique combination of experiences has not only shaped my problem-solving skills but also fueled my dedication to accessibility in technology.</p>
           </div>
         </div>
           <aside className='min-w-64 shrink-0 py-10 lg:pb-5'>
@@ -18,7 +18,7 @@ const AboutMe = () => {
       </section>
         <div className='px-10 pb-52 pt-0 md:px-20 md:pt-0 w-full flex flex-col flex-wrap'>
           <div className='lg:px-10'>
-            <p className="text-xl invisible xl:visible leading-relaxed indent-10">Transitioning from environmental studies to software development wasn't just about changing my career path; it was about empowering myself to make a meaningful impact. I recently graduated from the Turing School of Software and Design, where I honed my skills and collaborated on projects that addressed real-world challenges. I'm excited to leverage my problem-solving abilities and environmental awareness to contribute to innovative solutions in the tech industry.</p>
+            <p className="text-xl invisible xl:visible leading-relaxed indent-10">Transitioning from environmental studies to software development was a pivotal step in aligning my profession with my passion for meaningful impact. At Turing, I honed my technical skills and collaborated on projects that tackled real-world challenges, preparing me to contribute innovative solutions in the tech industry. I am eager to bring my blend of environmental awareness, commitment to societal impact, and technical acumen to a collaborative and innovative team, where I can make a significant difference.</p>
           </div>
         </div>
     </article>
