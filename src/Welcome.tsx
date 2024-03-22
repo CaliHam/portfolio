@@ -15,8 +15,8 @@ const Welcome = () => {
           <span className="text-pink-400 font-bold">Frontend Developer</span> blending creativity, problem-solving, & social equity
         </h2> 
         <div className='flex items-center justify-around text-amber-50 pt-10'>
-          <a href='#connect'><button className='bg-violet-300 rounded-full px-5 py-2 hover:scale-125 transition'>Let's Connect</button></a>
-          <a href='#about'><button className='bg-pink-300 rounded-full px-5 py-2 hover:scale-125 transition'>About Me</button></a>
+          <a href='#connect'><button className='bg-blue-500 rounded-full px-5 py-2 drop-shadow-md hover:scale-125 transition'>Let's Connect</button></a>
+          <a href='#projects'><button className='bg-pink-400 rounded-full px-5 py-2 drop-shadow-md hover:scale-125 transition'>Projects</button></a>
         </div>
       </div>
       <div className='flex lg:flex-col items-center justify-around order-2 container mx-auto opacity-0 animate-fade-in'>
