@@ -9,8 +9,20 @@ export default {
     },
     extend: {
       boxShadow: {
-        'img': '-13px -13px 15px 1px rgba(0,0,0,0.24);'
-      }
+        'img': '0 2px 8px rgba(0,0,0,0.15);'
+      },
+      scale: {
+        '115': '1.15', 
+      },
+      animation: {
+        rotate360: 'rotate360 2s linear',
+      },
+      keyframes: {
+        rotate360: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
     },
   },
   plugins: [],
