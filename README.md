@@ -20,7 +20,7 @@ Below are some of the projects I've worked on. Each project includes a brief des
   - Technologies: React, React-Router, Cypress, REST API, Action Cable Websockets, Styled Components
   - [Repository](#https://github.com/GratefulTogether/gratefultogether-ui)
 
-  - **My Anime Ship**
+- **My Anime Ship**
   - Description: Responsive web application that allows the user to calculate compatibility with chosen anime characters.
   - Technologies: React, React-Router, Cypress, Express.js, REST API
   - [Repository](#https://github.com/GratefulTogether/gratefultogether-ui)
