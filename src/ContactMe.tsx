@@ -19,7 +19,7 @@ const ContactMe = () => {
             <a href={resumePDF} target="_blank"><img src={resume} className="hover:-translate-y-1 transition" alt="resume icon"/></a><p className='pl-3 text-violet-950'>RESUME</p>
           </div>
           <div className="flex items-center">
-            <img src={email} className='object-none' alt="email icon"/><div className='pl-3 text-violet-950'><p>EMAIL</p><p>callihanh.dev@gmail.com</p></div>
+          <a href="mailto:callihanh.dev@gmail.com" target="_blank"><img src={email} className="object-none hover:-translate-y-1 transition" alt="email icon"/></a><div className='pl-3 text-violet-950'><p>EMAIL</p><p>callihanh.dev@gmail.com</p></div>
           </div>
           <div className="flex items-center">
             <img src={phone} className='object-none' alt="phone icon"/><div className='pl-3 text-violet-950'><p>PHONE</p><p>336-327-3502</p></div>

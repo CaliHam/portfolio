@@ -5,7 +5,7 @@ import development from './assets/development.png'
 
 const Welcome = () => {
   return (
-    <main className="bg-amber-50 text-violet-950 flex h-auto w-screen font-body flex-col lg:flex-row">
+    <section className="bg-amber-50 text-violet-950 flex h-auto w-screen font-body flex-col lg:flex-row">
       <div className="order-1 p-16 lg:p-28 pr-5 container mx-auto opacity-0 animate-fade-in">
         <div className='flex justify-around w-fit items-center'>
           <img className="w-12" src={sun} alt='light mode'/>
@@ -24,7 +24,7 @@ const Welcome = () => {
         <img className="w-60 hidden md:block hover:-translate-x-10 transition" src={development} alt='development'/>
         <img className="w-60 hidden md:block hover:translate-x-10 transition" src={api} alt='api'/>
       </div>
-    </main>
+    </section>
   )
 }
 
