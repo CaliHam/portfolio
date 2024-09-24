@@ -9,11 +9,13 @@ const Projects = () => {
         <img src={proj.image} className='h-72 object-cover rounded object-top shadow-img hover:-translate-y-2 transition-all' alt={proj.title} />
         <div className='flex font-title justify-between'>
           <h2 className='text-2xl'>{proj.title}</h2>
-          <div className='flex'>
-            <a href={proj.deployed}><u>Visit</u></a>
-            <p>&nbsp;|&nbsp;</p>
-            <a href={proj.github}><u>Repo</u></a>
-          </div>
+          {proj.deployed ? 
+            <div className='flex'>
+              <a href={proj.deployed} target='blank'><u>Visit</u></a>
+              <p>&nbsp;|&nbsp;</p>
+              <a href={proj.github} target='blank'><u>Repo</u></a>
+            </div> : null
+          }
         </div>
         <hr />
         <p>{proj.description}</p>
